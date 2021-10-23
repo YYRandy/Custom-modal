@@ -1,4 +1,10 @@
 # Custom-modal
 
-# About
-it is used in my app and is very useful for me
+## About
+ハーフモーダルをテストしてみたもの
+
+
+## Point
+•modalの大きさを自分で調整できる
+•gestureでdissmissできる
+•デフォルトのモーダルでできない角丸ができる
