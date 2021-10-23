@@ -11,6 +11,8 @@
 		5AF1915B2723FC7A004DC470 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1915A2723FC7A004DC470 /* ContentView.swift */; };
 		5AF1915D2723FC7E004DC470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1915C2723FC7E004DC470 /* Assets.xcassets */; };
 		5AF191602723FC7E004DC470 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1915F2723FC7E004DC470 /* Preview Assets.xcassets */; };
+		5AF191672723FC92004DC470 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF191662723FC92004DC470 /* Main.swift */; };
+		5AF191692723FC99004DC470 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF191682723FC99004DC470 /* Modal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5AF1915A2723FC7A004DC470 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5AF1915C2723FC7E004DC470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AF1915F2723FC7E004DC470 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AF191662723FC92004DC470 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		5AF191682723FC99004DC470 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				5AF191582723FC7A004DC470 /* Custom_modal_with_scrollviewApp.swift */,
 				5AF1915A2723FC7A004DC470 /* ContentView.swift */,
+				5AF191662723FC92004DC470 /* Main.swift */,
+				5AF191682723FC99004DC470 /* Modal.swift */,
 				5AF1915C2723FC7E004DC470 /* Assets.xcassets */,
 				5AF1915E2723FC7E004DC470 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF191672723FC92004DC470 /* Main.swift in Sources */,
 				5AF1915B2723FC7A004DC470 /* ContentView.swift in Sources */,
 				5AF191592723FC7A004DC470 /* Custom_modal_with_scrollviewApp.swift in Sources */,
+				5AF191692723FC99004DC470 /* Modal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+@available(iOS 15.0, *)
 @main
 struct Custom_modal_with_scrollviewApp: App {
     var body: some Scene {
